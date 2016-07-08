@@ -26,7 +26,8 @@
     "psi": "^2.0.2",
     "run-sequence": "^1.0.1",
     "sw-precache": "^3.2.0",
-    "sw-toolbox": "^3.0.1"
+    "sw-toolbox": "^3.0.1",
+    "ui-kit": "git+https://github.com/StralianMade/uikit.git"
   },
   "engines": {
     "node": ">=0.12"
