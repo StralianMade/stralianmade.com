@@ -1,77 +1,29 @@
-/*
-Note: any .css or .scss files included in the 'styles' directory
-will be correctly compiled during `gulp serve` and `gulp`
- */
-
-html, body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  background-color: #000;
+    margin: 0;
+    padding: 0;
+    /*font-family: "Open Sans", serif;*/
 }
 
-.container {
-  width: 90%;
-  margin:2% auto;
-}
-
-/**/
-header.first-section {
-  background-color: silver;
-  padding-bottom: 300px;
-  background-image: url(../images/header-bg.jpg);
+.ui.masthead.segment {
+  // background: #000 !important;
+  background-image: url(../images/header-bg.jpg) !important;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center 0;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
-  color: #fff;
+  min-height: 100vh;
+  padding: 1em 0em;
 }
-
-nav.main-nav {
-  padding-bottom: 100px;
+.masthead h1.ui.header {
+  margin-top: 3em;
+  margin-bottom: 0em;
+  font-size: 4em;
+  font-weight: normal;
 }
-
-div.logo {
-  padding: 20px;
-}
-
-div.hello-block {
-  padding: 30px;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #1eff33;
-  /*make centered*/
-  width: 50%;
-  margin: 0 auto; 
-}
-
-div.welcome-message {
-  padding: 10px;
-  width: 25%;
-  margin: 0 auto; 
-}
-
-/**/
-section.second-section {
-  background-color: #fff;
-  height: 200px;
-}
-
-/**/
-section.third-section {
-  background-color: #eee;
-  height: 200px;
-}
-
-
-/**/
-section.fourth-section {
-  background-color: red;
-  height: 200px;
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
 }
