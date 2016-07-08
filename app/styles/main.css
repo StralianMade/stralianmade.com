@@ -18,7 +18,7 @@ body {
   padding: 1em 0em;
 }
 .masthead h1.ui.header {
-  margin-top: 3em;
+  margin-top: 20vh;
   margin-bottom: 0em;
   font-size: 4em;
   font-weight: normal;
@@ -26,4 +26,12 @@ body {
 .masthead h2 {
   font-size: 1.7em;
   font-weight: normal;
+}
+
+
+@media only screen and (max-width: 320px) {
+
+   .masthead h1.ui.header { font-size: 2em; padding-bottom: 0.5em; }
+   .masthead h2.ui.header { display: none; }
+
 }
